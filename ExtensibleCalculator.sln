@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibleCalculator", "ExtensibleCalculator\ExtensibleCalculator.csproj", "{5A0C8445-B770-42BF-842B-3BCC33B82A78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibilityAPI", "ExtensibilityAPI\ExtensibilityAPI.csproj", "{47BF1ADF-3DB7-4360-A6B7-230EE8791622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythagoreanTheorem", "PythagoreanTheorem\PythagoreanTheorem.csproj", "{FDA2B688-761C-4B7B-BD99-8D9F50EC59A0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47BF1ADF-3DB7-4360-A6B7-230EE8791622} = {47BF1ADF-3DB7-4360-A6B7-230EE8791622}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A0C8445-B770-42BF-842B-3BCC33B82A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0C8445-B770-42BF-842B-3BCC33B82A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0C8445-B770-42BF-842B-3BCC33B82A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0C8445-B770-42BF-842B-3BCC33B82A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47BF1ADF-3DB7-4360-A6B7-230EE8791622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47BF1ADF-3DB7-4360-A6B7-230EE8791622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47BF1ADF-3DB7-4360-A6B7-230EE8791622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47BF1ADF-3DB7-4360-A6B7-230EE8791622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA2B688-761C-4B7B-BD99-8D9F50EC59A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA2B688-761C-4B7B-BD99-8D9F50EC59A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA2B688-761C-4B7B-BD99-8D9F50EC59A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA2B688-761C-4B7B-BD99-8D9F50EC59A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C463433-5BD7-4E14-AA98-D919CB32DC38}
+	EndGlobalSection
+EndGlobal

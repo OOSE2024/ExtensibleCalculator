@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ExtensibleCalculator": {
+      "commandName": "Project",
+      "workingDirectory": "D:\\MyWorkII\\TeachingCourses\\Software Enginnering II\\Exercises\\ExtensibleCalculator\\ExtensibleCalculator"
+    }
+  }
+}
